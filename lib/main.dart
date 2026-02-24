@@ -19,12 +19,25 @@ class ExpensesApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.purple,
           foregroundColor: Colors.white,
+          titleTextStyle: TextStyle(
+            fontFamily: 'OpenSans',
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        textTheme: ThemeData.light().textTheme.copyWith(
+          titleMedium: TextStyle(
+            fontFamily: 'OpenSans',
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+          ),
         ),
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.amber,
           primary: Colors.purple,
           secondary: Colors.amber,
         ),
+        fontFamily: 'Quicksand',
       ),
     );
   }
