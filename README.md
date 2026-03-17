@@ -6,7 +6,7 @@ Este é um projeto desenvolvido como parte do **Curso de Flutter e Dart da Cod3r
 
 - **Registo de Transações:** Adiciona título, valor e data de cada despesa.
 - **Gráfico Semanal:** Visualização dinâmica da percentagem de gastos em cada dia da última semana.
-- **Gestão de Dados:** Listagem de despesas e opção para eliminar registos.
+- **Gestão de Dados:** Listagem de despesas e opção para eliminar registros.
 - **Interface Adaptável:** Design focado em usabilidade com temas personalizados.
 
 ## 🛠️ Desafios Técnicos Superados
@@ -26,7 +26,7 @@ Durante o desenvolvimento, foram aplicados conceitos fundamentais de Flutter, in
 
 ## 🏁 Como Executar o Projeto
 
-1. Certifica-te de que tens o ambiente Flutter configurado.
-2. Clona o repositório:
+1. Certifique-se de ter o ambiente Flutter configurado.
+2. Clone o repositório:
    ```bash
    git clone [https://github.com/guilhermecarv32/Expenses.git](https://github.com/guilhermecarv32/Expenses.git)
