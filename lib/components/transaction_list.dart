@@ -40,6 +40,7 @@ class TransactionList extends StatelessWidget {
             ),
             child: ListTile(
               leading: CircleAvatar(
+                backgroundColor: Theme.of(context).colorScheme.primary,
                 radius: 30,
                 child: Padding(
                   padding: const EdgeInsets.all(6),
@@ -47,7 +48,8 @@ class TransactionList extends StatelessWidget {
                     child: Text(
                       'R\$${tr.value}',
                       style: TextStyle(
-                        fontWeight: FontWeight.bold
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
                       ),
                     )
                   ),
